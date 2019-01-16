@@ -1,0 +1,22 @@
+Things to set up before running latitude.py:
+
+- I2c: 
+Inter-intergrated circuit (i2c) is a protocol for communicating with low-speed peripherals.
+On the Rpi, you can connect up to two devices to the SCL and SDA master pins (GPIO3 and GPIO5).
+Make sure the connections are made in parallel and that each sensor is using a different address. 
+ADC:
+Mag-sensor:
+
+- Magnetometer:
+Clone the following repository for the QMC5883L magnetometer: https://github.com/RigacciOrg/py-qmc5883l
+
+- Analog to Digital Converter:
+Install necessary drivers: https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/ads1015-slash-ads1115?fbclid=IwAR3ZssG41gnKDBnWwK6jNznTiN9v0c35AunUyOKwUxnS9rQzNCFoUKa_IeI 
+Commands are:
+sudo apt-get update
+sudo apt-get install build-essential python-dev python-smbus python-pip
+sudo pip install adafruit-ads1x15
+
+- Motor
+sudo apt-get install -y python-pip
+sudo pip install wiringpi
