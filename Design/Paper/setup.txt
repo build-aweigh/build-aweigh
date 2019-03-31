@@ -1,1 +1,1 @@
-example paper and tools used
+These files are subject to modifications and are not final designs. Some of them have been used for initial versions of Aweigh. 
