@@ -11,4 +11,4 @@ while True:
   #assuming the script to call is long enough we can ignore bouncing
   if (GPIO.input(buttonPin)):
     #this is the script that will be called (as root)
-    os.system("python /home/pi/Latitude.py")
+    os.system("python /home/pi/Latitude_Longitude.py")
