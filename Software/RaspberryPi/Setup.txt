@@ -17,6 +17,6 @@ sudo apt-get update
 sudo apt-get install build-essential python-dev python-smbus python-pip
 sudo pip install adafruit-ads1x15
 
-- Motor
-sudo apt-get install -y python-pip
-sudo pip install wiringpi
+Other components, depending on the user's preferences, will need to be set up as well. All of the team's device versions have been
+implemented with Adafruit sensors or components, which are linked to detailed installation instructions. 
+https://www.adafruit.com/categories
