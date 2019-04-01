@@ -1,0 +1,2 @@
+This PCB design was based on polarisation angle reading research papers. The additional components (magnetometer, RTC, etc.) can be
+changed for more accuracy. Currently, the team is still trying to develop a way to robustly calculate position, while using cheap resources.
