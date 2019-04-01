@@ -1,0 +1,2 @@
+The team recommends using a Rpi for more accurate trig calculations, which will affect the final result immensely. 
+Currently, only one example calculation script for latitude has been included.
